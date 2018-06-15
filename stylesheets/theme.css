@@ -1,6 +1,7 @@
-div{
-    background-color: red;
+div {
+  background-color: red;
 }
 body {
-    background-color: blue;
+  background-color: green;
+  color: blue;
 }

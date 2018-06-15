@@ -14,7 +14,10 @@
   <body>
 
       <div id="fullpage">
-          <div class="section section1">PRIME</div>
+          <div class="section section1">
+            <h1>PRIME</h1>
+            <h5>This is a subtitle</h5>
+          </div>
           <div class="section section2">FRESH</div>
           <div class="section section3">VIDEO</div>
           <div class="section section4">MUSIC</div>
@@ -30,15 +33,15 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
 
       <script type="text/javascript">
-          $(document).ready(function() {
-            $('#fullpage').fullpage({
-                sectionsColor:['#82D8E3', '#ADE422', '#FFA724', '#FF5252'],
-                verticalCentered: false,
-                navigation: true,
-		            navigationPosition: 'right',
-		            navigationTooltips: ['Prime', 'Fresh', 'Video', 'Music'],
-            });
-          });
-      </script>
+      $(document).ready(function() {
+  $("#fullpage").fullpage({
+    sectionsColor: ["#82D8E3", "#ADE422", "#FFA724", "#FF5252"],
+    verticalCentered: false,
+    navigation: true,
+    navigationPosition: "right",
+    navigationTooltips: ["Prime", "Fresh", "Video", "Music"]
+  });
+});
+</script>
   </body>
 </html>

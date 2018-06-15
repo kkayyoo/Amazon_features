@@ -2,11 +2,12 @@ div {
   background-color: red;
 }
 body {
-    background-color: green;
-    color: blue;
+  background-color: green;
+  color: blue;
 }
-
+p {
+  font-size: 20px;
+}
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
-
